@@ -1,0 +1,6 @@
+[template]
+src = "clamd.conf.tmpl"
+dest = "/etc/clamav/clamd.conf"
+owner = "root"
+mode = "0644"
+keys = ["/clamav"]

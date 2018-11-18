@@ -1,0 +1,6 @@
+[template]
+src = "amavisd.conf.tmpl"
+dest = "/etc/amavisd.conf"
+owner = "root"
+mode = "0644"
+keys = ["/amavis"]
